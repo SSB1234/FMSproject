@@ -1,7 +1,7 @@
 package sky.com.company;
 
 public class Passenger {
-    static int idCounter;
+    private static int idCounter;
     private int id;
     public static class Address {
         String street;
